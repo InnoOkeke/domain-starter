@@ -1,6 +1,6 @@
 .App {
   height: 100vh;
-  background-color: #0d1116;
+  background-color: #4a320d;
   text-align: center;
   color: white;
 }
@@ -11,7 +11,7 @@ p {
 
 .container {
   height: 100%;
-  background-color: #181818;
+  background-color: #543e17;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -62,7 +62,7 @@ header{
 }
 
 .content-container {
-  background-color: #a200d6;
+  background-color: #000000;
 }
 
 .cta-button {
@@ -104,7 +104,7 @@ header{
 }
 
 .mint-button {
-  background: -webkit-linear-gradient(left, #a200d6, #ff6fdf);
+  background: -webkit-linear-gradient(left, #f3b71f, #b07c21);
   font-size: 18px;
   background-size: 200% 200%;
   animation: gradient-animation 4s ease infinite;
