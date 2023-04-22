@@ -172,7 +172,7 @@ const App = () => {
 			// You know all this
 			const provider = new ethers.providers.Web3Provider(ethereum);
 			const signer = provider.getSigner();
-			const contract = new ethers.Contract(CONTRACT_ADDRESS, contractAbi.abi, signer);
+			const contract = new ethers.Contract(CONTRACT_ADDRESS, contractAbi, signer);
 			  
 			// Get all the domain names from our contract
 			const names = await contract.getAllNames();
@@ -297,7 +297,6 @@ const App = () => {
 		checkIfWalletIsConnected();
 	}, []);
 
-	// Add this render function next to your other render functions
 const renderMints = () => {
 	if (currentAccount && mints.length > 0) {
 	  return (
