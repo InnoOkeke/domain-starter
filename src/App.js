@@ -267,7 +267,7 @@ const App = () => {
 			<input
 			  type="text"
 			  value={record}
-			  placeholder='whats ur ninja power?'
+			  placeholder='Your alias?'
 			  onChange={e => setRecord(e.target.value)}
 			/>
 	  
@@ -341,7 +341,7 @@ const renderMints = () => {
 					<header>
 						<div className="left">
 							<p className="title">🐱‍👤 Core Name Service</p>
-							<p className="subtitle">Your immortal API on the blockchain!</p>
+							<p className="subtitle">Get your domain on the blockchain!</p>
 						</div>
 						{/* Display a logo and wallet connection status*/}
     					<div className="right">
